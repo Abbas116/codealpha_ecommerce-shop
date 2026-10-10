@@ -9,7 +9,7 @@ export default function App() {
   const guard = el => user ? el : <Navigate to="/login" />;
   return (<>
     <header className="nav">
-      <Link to="/" className="logo">✦ Nova<span>cart</span></Link>
+      <Link to="/" className="logo">🛒 Nova<span>cart</span></Link>
       <nav>
         <Link to="/wishlist" title="Wishlist">♥ <b className="pill">{wish.length}</b></Link>
         <Link to="/cart" title="Cart">🛒 <b className="pill">{count}</b></Link>
